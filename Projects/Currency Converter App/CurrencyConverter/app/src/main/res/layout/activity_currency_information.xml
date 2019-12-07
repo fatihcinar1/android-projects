@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.currencyconverter.CurrencyInformation">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="307dp"
+        android:layout_height="175dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="37dp"
+        android:scaleType="fitStart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/tl_and_dollar_2" />
+
+    <TextView
+        android:id="@+id/textViewEnterCurrency"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="103dp"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="34dp"
+        android:text="@string/enter_currency_rate"
+        android:textColor="@color/newCloseBlack"
+        android:textSize="17sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="316dp"
+        android:layout_height="87dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewEnterCurrency">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="158dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="1 $ ="
+            android:textColor="@color/newColorDollar"
+            android:textSize="50sp" />
+
+        <EditText
+            android:id="@+id/editTextCurrency"
+            android:layout_width="202dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="........ TL"
+            android:inputType="textPersonName"
+            android:textColor="@color/newReddish"
+            android:textColorHint="@color/newReddish"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/imageButtonContinue"
+        android:layout_width="273dp"
+        android:layout_height="106dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:srcCompat="@drawable/continue_button" />
+
+</android.support.constraint.ConstraintLayout>
