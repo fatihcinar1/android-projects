@@ -7,8 +7,8 @@
 
 
 ## Currency Converter
-| Description      | Source |
+| Description      | Source Code |
 | :-----------: | :-----------: |
-| Basic Currency Converter <br> Converts between Turkish Lira and United States Dollar <br> Asks user the currency rate of today and is table to convert both ways      | [Source](https://github.com/fatihcinar1/android-projects/tree/master/Projects/Currency%20Converter%20App/CurrencyConverter)       |
+| Basic Currency Converter <br> Converts between Turkish Lira and United States Dollar <br> Asks user the currency rate of today and is table to convert both ways      | [Source Code](https://github.com/fatihcinar1/android-projects/tree/master/Projects/Currency%20Converter%20App/CurrencyConverter)       |
 
 <img src="https://github.com/fatihcinar1/android-projects/blob/master/Projects/Currency%20Converter%20App/Screenshots/P1.png?raw=true" width="280" height="560">  <img src="https://github.com/fatihcinar1/android-projects/blob/master/Projects/Currency%20Converter%20App/Screenshots/P2.png?raw=true" width="280" height="560"> <img src="https://github.com/fatihcinar1/android-projects/blob/master/Projects/Currency%20Converter%20App/Screenshots/P3.png?raw=true" width="280" height="560"> 
