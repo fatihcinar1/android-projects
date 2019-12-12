@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/newWhite"
+    tools:context="com.example.user.tic_tac_toe.DeterminePlayers">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/spicy_rice"
+        android:text="The Legendary"
+        android:textColor="@color/blackish"
+        android:textSize="25sp"
+        android:textStyle="italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="123dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="47dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/spicy_rice"
+        android:text="The Genius"
+        android:textColor="@color/blackish"
+        android:textSize="25sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="92dp"
+        android:layout_height="183dp"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@drawable/player1" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="111dp"
+        android:layout_height="207dp"
+        android:layout_marginEnd="58dp"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="9dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:srcCompat="@drawable/player2" />
+
+    <EditText
+        android:id="@+id/editTextNamePlayer1"
+        android:layout_width="113dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="26dp"
+        android:ems="10"
+
+        android:fontFamily="@font/spicy_rice"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:textColor="@color/closeToPurple"
+        android:textColorHint="@color/closeToPurple"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <EditText
+        android:id="@+id/editTextNamePlayer2"
+        android:layout_width="113dp"
+        android:layout_height="59dp"
+        android:layout_marginEnd="57dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="9dp"
+        android:ems="10"
+        android:fontFamily="@font/spicy_rice"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:textColor="@color/closeToPurple"
+        android:textColorHint="@color/closeToPurple"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/editTextNamePlayer1"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="78dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="76dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNamePlayer1"
+        app:srcCompat="@drawable/letter_x" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="81dp"
+        android:layout_height="83dp"
+        android:layout_marginEnd="77dp"
+        android:layout_marginStart="72dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView3"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNamePlayer2"
+        app:srcCompat="@drawable/letter_o" />
+
+    <ImageView
+        android:id="@+id/playNowImage"
+        android:layout_width="206dp"
+        android:layout_height="94dp"
+        android:layout_marginEnd="89dp"
+        android:layout_marginStart="89dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:srcCompat="@drawable/play_button" />
+</android.support.constraint.ConstraintLayout>

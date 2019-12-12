@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ff741e</color>
+    <color name="colorPrimaryDark">#f16711</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="newBlack">#000000</color>
+    <color name="newWhite">#FFFFFF</color>
+    <color name="reddish">#d91818</color>
+    <color name="blackish">#393737</color>
+    <color name="closeToPurple">#9e1b91</color>
+    <color name="greenish">#139413</color>
+</resources>
