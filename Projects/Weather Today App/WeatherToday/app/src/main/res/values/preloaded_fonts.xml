@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/adamina</item>
+        <item>@font/aguafina_script</item>
+        <item>@font/aldrich</item>
+        <item>@font/audiowide</item>
+        <item>@font/fascinate</item>
+        <item>@font/pirata_one</item>
+        <item>@font/short_stack</item>
+        <item>@font/signika_light</item>
+    </array>
+</resources>
