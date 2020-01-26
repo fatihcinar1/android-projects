@@ -25,6 +25,7 @@
 
 <img src="https://github.com/fatihcinar1/android-projects/blob/master/Projects/Tic-Tac-Toe%20Game/Screenshots/P1.png?raw=true" width="280" height="560">  <img src="https://github.com/fatihcinar1/android-projects/blob/master/Projects/Tic-Tac-Toe%20Game/Screenshots/P2.png?raw=true" width="280" height="560"> <img src="https://github.com/fatihcinar1/android-projects/blob/master/Projects/Tic-Tac-Toe%20Game/Screenshots/P3.png?raw=true" width="280" height="560"> 
 
+<br>
 
 ## Weather Today
 
