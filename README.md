@@ -31,7 +31,7 @@
 
 | Description      | Source Code | Language |  APK File |
 | :-----------: | :-----------: | :-----------: | :-----------: |
-| Weather Today <br> Get the weather information now   | [Source Code](https://github.com/fatihcinar1/android-projects/tree/master/Projects/Tic-Tac-Toe%20Game/TicTacToe)       | `Java` | [APK File](https://github.com/fatihcinar1/android-projects/tree/master/Projects/Weather%20Today%20App/APK)  |
+| Weather Today <br> Get the weather information now   | [Source Code](https://github.com/fatihcinar1/android-projects/tree/master/Projects/Weather%20Today%20App/WeatherToday)       | `Java` | [APK File](https://github.com/fatihcinar1/android-projects/tree/master/Projects/Weather%20Today%20App/APK)  |
 
 The software gets the current location of the user, and then creates the URL to request for the weather information. An HTTP request is sent to the server and then based on the response the application makes the interface for the user. 
 
