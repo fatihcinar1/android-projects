@@ -34,6 +34,7 @@
 | Weather Today <br> Get the weather information now   | [Source Code](https://github.com/fatihcinar1/android-projects/tree/master/Projects/Weather%20Today%20App/WeatherToday)       | `Java` | [APK File](https://github.com/fatihcinar1/android-projects/tree/master/Projects/Weather%20Today%20App/APK)  |
 
 The software gets the current location of the user, and then creates the URL to request for the weather information. An HTTP request is sent to the server and then based on the response the application makes the interface for the user. 
+<img src="https://github.com/fatihcinar1/android-projects/blob/master/Projects/Weather%20Today%20App/Screenshots/P1.png?raw=true" width="280" height="560"> <img src="https://github.com/fatihcinar1/android-projects/blob/master/Projects/Weather%20Today%20App/Screenshots/P2.png?raw=true" width="280" height="560"> <img src="https://github.com/fatihcinar1/android-projects/blob/master/Projects/Weather%20Today%20App/Screenshots/P3.png?raw=true" width="280" height="560">
 
 <br>
 
@@ -51,8 +52,6 @@ Images of the Movies are rendered using Picasso library.
 No image or information is stored in the device. %100 Online.
 
 <br>
-
-<br><br>
 
 <img src="https://github.com/fatihcinar1/android-projects/blob/master/Projects/IMDB%20Top%2050%20Interface/Images/P1.png?raw=true" width="280" height="560"> <img src="https://github.com/fatihcinar1/android-projects/blob/master/Projects/IMDB%20Top%2050%20Interface/Images/P2.png?raw=true?raw=true" width="280" height="560"> <img src="https://github.com/fatihcinar1/android-projects/blob/master/Projects/IMDB%20Top%2050%20Interface/Images/P3.png?raw=true" width="280" height="560">
 
