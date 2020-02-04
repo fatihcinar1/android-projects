@@ -47,11 +47,11 @@ The software gets the current location of the user, and then creates the URL to 
 | :-----------: | :-----------: | :-----------: | :-----------: |
 | IMDB Top 50 Movies <br> Extremely Fast and %100 Online Interface  | [Source Code](https://github.com/fatihcinar1/android-projects/tree/master/Projects/IMDB%20Top%2050%20Interface/IMDBinterface)       | `Java` | [APK File](https://github.com/fatihcinar1/android-projects/blob/master/Projects/IMDB%20Top%2050%20Interface/APK/imdb-top50-v1.apk)  |
 
-I developed this project to practise RecyclerView and API Handling. 
-What the software does is that it connects to the servers and gets the top 50 movie information as JSON using Volley Library.
-And using GSON library, it parses JSON to "Movie" objects and keeps it in an ArrayList.
-Then using RecyclerView and CardView, and using a CustomAdapter class it renders the ArrayList of Movies to the screen.
-Images of the Movies are rendered using Picasso library.
+I developed this project to practise RecyclerView and API Handling. <br>
+What the software does is that it connects to the servers and gets the top 50 movie information as JSON using Volley Library.<br>
+And using GSON library, it parses JSON to "Movie" objects and keeps it in an ArrayList.<br>
+Then using RecyclerView and CardView, and using a CustomAdapter class it renders the ArrayList of Movies to the screen.<br>
+Images of the Movies are rendered using Picasso library.<br>
 No image or information is stored in the device. %100 Online.
 
 <br>
